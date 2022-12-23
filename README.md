@@ -27,3 +27,12 @@ The strongest model we built was a random forest model, which achieved a precisi
 # Conclusion
 Fraudulent activities aren’t going anywhere and creating strongly predictive fraud detection models is extremely important for financial institutions and their clients. With fraudsters becoming more and more imaginative, financial institutions need to heavily rely on machine learning and the advancements in big data management systems and tools to face these threats.
 
+# Appendix
+Codes can be imported directly from following links:
+- Exploratory Data Analysis: 
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3514859587127367/3214849744087448/5495093447822595/latest.html
+
+- Modelling:
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3514859587127367/489962228684301/5495093447822595/latest.html
+
+
