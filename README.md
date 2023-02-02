@@ -1,4 +1,4 @@
-# Built a model to detect fraudulent credit card transactions using Pyspark and Databricks
+# Building a model to detect fraudulent transactions using big data technology (Pyspark)
 
 Please find the detailed results in Credit Card_Fraud Detection_ Report.pdf file
 Codes can be found in two ipynb files or import directed from below links:
