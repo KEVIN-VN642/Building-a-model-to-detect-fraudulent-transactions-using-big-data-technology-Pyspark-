@@ -1,13 +1,5 @@
 # Building a model to detect fraudulent transactions using big data technology (Pyspark)
 
-Please find the detailed results in <b>Credit Card_Fraud Detection_ Report.pdf</b> file
-Codes can be found in two ipynb files or import directed from below links:
-- Exploratory data analysis:
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3514859587127367/3214849744087448/5495093447822595/latest.html
-- Building model: 
-https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3514859587127367/489962228684301/5495093447822595/latest.html
-
-
 ### Table of Contents
 1. [Introduction](#intro)
 2. [Software requirement](#require)
@@ -39,8 +31,16 @@ In order to perform data analysis and modeling, we chose Databricks as the worki
 # 5. Modeling<a id="model"></a>
 The dataset was highly imbalanced, with about 99.83% of transactions being non-fraudulent. Meaning that it would be incorrect to strongly rely on accuracy to measure the success of our models, given that if our model predicted all transactions as non-fraudulent, we would have an accuracy level of 99.83%, which seems high, but wouldn’t detect any fraudulent activity. 
 Given the nature of our dataset, it was more suitable to use precision, recall, f1-scores, area under ROC curve and area under PR curve to measure model performance. Recall and precision are reliable metrics to assess the predictive strength of fraud detection models.
-The strongest model we built was a random forest model, which achieved a precision of 82.0% and a recall of 82.6%. Since the community version of Databricks has limited computation power, hyper-parameter tuning was challenging, with models taking hours to run. However, this model has the power to help financial institutions reduce time and workload to find fraudulent transactions and mitigate financial impacts to their customers. 
+The strongest model we built was a random forest model, which achieved a precision of 82.0% and a recall of 82.6%. Since the community version of Databricks has limited computation power, hyper-parameter tuning was challenging, with models taking hours to run. However, this model has the power to help financial institutions reduce time and workload to find fraudulent transactions and mitigate financial impacts to their 
+customers. 
 
 # 6. Conclusion<a id="conclude"></a>
 Fraudulent activities aren’t going anywhere and creating strongly predictive fraud detection models is extremely important for financial institutions and their clients. With fraudsters becoming more and more imaginative, financial institutions need to heavily rely on machine learning and the advancements in big data management systems and tools to face these threats.
+
+Please find the detailed results in <b>Credit Card_Fraud Detection_ Report.pdf</b> file
+Codes can be found in two ipynb files or import directed from below links:
+- Exploratory data analysis:
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3514859587127367/3214849744087448/5495093447822595/latest.html
+- Building model: 
+https://databricks-prod-cloudfront.cloud.databricks.com/public/4027ec902e239c93eaaa8714f173bcfc/3514859587127367/489962228684301/5495093447822595/latest.html
 
